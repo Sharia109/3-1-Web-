@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Book Store </title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+
+</head>
+<body>
+<div class="wrapper">
+
+<header>
+<div class="logo">
+<img src="101.png">
+<h3 style="color: white ;">SunShine Book House</h3>
+</div>
+
+	<nav>
+		<ul>
+		 <li><a href="index.php">HOME</a></li>
+		
+			<li><a href="books.php">Books</a></li>
+			<li><a href="login.php">LOGIN</a></li>
+			<li><a href="gallery.php">GALLERY</a></li>
+			 <li class="dropdown">
+            <a class="dropbtn">AUTHORS</a>
+                <div class="content">
+                    <a class="linkClass" href="http://www.amarbooks.com/cat.php?cd=154">Humayun_Ahmed</a>
+                    <a class="linkClass" href="http://www.amarbooks.com/cat.php?cd=178">Zafar_Iqbal</a>
+					<a class="linkClass" href="http://www.amarbooks.com/cat.php?cd=175">Kazi_Nazrul_Islam</a>
+                      <a class="linkClass" href="http://www.amarbooks.com/cat.php?cd=183">Rabindranath_Tagore</a>
+				       <a class="linkClass" href="http://www.amarbooks.com/cat.php?cd=158">Anisul_Haque</a>
+				      <a class="linkClass" href="http://www.amarbooks.com/cat.php?cd=303">Samaresh_Maju</a>
+				       
+
+				</div>
+        </li>
+        <li><a href="feedback.php">FEEDBACK</a></li>
+         <li><a href="home.php">EXIT</a></li>
+		</ul>
+	</nav>
+</header>
+
+<section>
+	<br><br>
+	<div class="box">
+		<br><h1 style="text-align: center; font-size: 25px; color: brown;">WELCOME!!</h1>
+		<h3 style="text-align: center;font-size: 25px; color:brown;">Everything you desire is HERE :)</h3><br>
+		
+	</div>
+</section>
+
+<footer>
+	<p style="color: white; text-align: center;">
+		<br>
+		<h1>Contact Us</h2>
+		Email: wasikaaditi@gmail.com <br><br>
+		Mobile: 123456789<br>
+
+	</p>
+</footer>
+
+
+
+
+	
+</div>
+</body>
+</html>
